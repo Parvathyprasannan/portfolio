@@ -1,0 +1,177 @@
+*{
+    font-family: "Roboto Condensed", serif;
+    margin: 0;
+    padding: 0;}
+    .main{
+        width:100%;
+        background-color: cadetblue;
+          background-position: center;
+        background-size: cover;
+        height: 600px;
+    
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5px;
+        margin: auto;
+        list-style: none;
+        background-color: rgb(44, 114, 117);
+        
+        
+        
+    
+    }
+    ul li{
+      display: inline ;
+      padding: 5px;
+      margin: 10px;
+      color: rgb(29, 128, 128);
+    }
+    ul li a{
+        font-weight: bold;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: red;
+    }
+    .image{
+        width: 30%;
+        height: 60%;
+        position: absolute;
+        right: 100px;
+        bottom: 0;
+        
+    
+    
+    
+    }
+    .image img{
+        height: 140%;
+        position: absolute;
+        left: 40%;
+        bottom: 0;
+
+        transform: translate(-55%);
+        transition: left 2s ease;
+
+        
+    }
+    .image:hover.prsn{
+        left:55%
+    }
+    .info{
+        margin-left: 10%;
+        margin-top: 15%;
+        width: 300px;
+        height: 415px;
+    
+        
+    }
+    .info span{
+        color:rgb(203, 226, 226);
+    }
+    .info h3{
+        padding-left: 40px;
+    }
+   .info p{
+        margin: 10px;
+        padding-left: 40px;
+
+        color: rgb(216, 233, 233);
+    }
+    .education{
+        padding: 10px;
+        margin-left: 5px;
+       
+        
+    }
+    .born{
+        margin: 5px;
+        padding-top: 10px;
+    }
+    .careers{
+        background-color: darkcyan;
+    }
+    
+    
+    .row{
+        display: flex;
+        margin-top: 5px;
+        }
+    
+    .col{
+        width:300px;
+        height: 300px;
+        
+        margin: 20px;
+        margin-left: 50px;
+        
+        background-size: 100%,200%;
+        transition :all 1.2s
+    }
+    .col img{
+        width: 300px;
+        height: 300px;
+        margin-left: 10px;
+    
+    }
+    
+    .h33{
+        background-color:rgb(200, 219, 219);
+        text-align: center;
+        color:rgb(1, 20, 20);
+    }
+    .h3{
+        background-color: rgb(200, 219, 219);
+        text-align: center;
+        color:rgb(1, 20, 20);
+
+    }
+    .education{
+        background-color:rgb(200, 219, 219);
+        text-align: center;
+        color:rgb(1, 20, 20);
+
+    }
+    .born{
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+    }
+    .honours{
+        background-color: rgb(16, 159, 161);
+        display: flex;
+        justify-content: center;
+        height: auto;
+        padding-top: 15px;
+        
+        
+    
+    }
+    .edudi{
+        background-color: darkcyan;
+        width: 100%;
+        height: auto;
+    }
+    .video{
+        padding-bottom: 10px;
+        padding-left: 5px;
+    }
+    .footer{
+        background-color: darkcyan;
+        width: 100%;
+        height: auto;
+        align-content: center;
+        justify-content: space-around;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        
+
+
+    }
+    .footer.h3{
+        color: rgb(37, 65, 65);
+    }
