@@ -1,5 +1,5 @@
 *{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;}
     .main{
@@ -55,7 +55,7 @@
 
         transform: translate(-55%);
         transition: left 2s ease;
-        padding-bottom: 20px;
+        
 
         
     }
