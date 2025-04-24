@@ -1,5 +1,5 @@
 *{
-    font-family:'Courier New', Courier, monospace;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
     margin: 0;
     padding: 0;}
     .main{
@@ -55,6 +55,7 @@
 
         transform: translate(-55%);
         transition: left 2s ease;
+        padding-bottom: 20px;
 
         
     }
